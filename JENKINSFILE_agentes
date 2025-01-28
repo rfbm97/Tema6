@@ -22,7 +22,7 @@ pipeline {
                 echo 'hostname:'
                 sh 'hostname'
 
-                git branch: 'master', url: 'https://github.com/rfbm97/Modulo2' 
+                git branch: 'master', url: 'https://github.com/rfbm97/Tema6' 
                 // Guardo los archivos en un área de almacenamiento temporal compartido entre los agentes con stash 
                 stash includes: '**/*', name: 'Files'
             } 
